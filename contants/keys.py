@@ -14,41 +14,51 @@ class Keys:
 
     # This key is for validating user payload while creating user
     VALUE_MAPPING_FOR_USER = {
-        "date_of_birth": {
-            "db_value": "dob",
+        "first_name": {
+            "db_value": "first_name",
             "is_mandatory": True,
         },
-        "personal_email_id": {"db_value": "email", "is_mandatory": False},
-        "official_email_id": {"db_value": "work_email", "is_mandatory": False},
-        "phone_number": {"db_value": "number", "is_mandatory": True},
+        "last_name": {
+            "db_value": "last_name",
+            "is_mandatory": True
+        },
+        "email_id": {
+            "db_value": "email",
+            "is_mandatory": True
+        },
+        "date_of_birth": {
+            "db_value": "dob",
+            "is_mandatory": True
+        },
+        "phone_number": {
+            "db_value": "number",
+            "is_mandatory": True
+        },
+        "phone_number_code": {
+            "db_value": "number_code",
+            "is_mandatory": True
+        },
+        "gender": {"db_value": "gender", "is_mandatory": True},
+        "user_status": {
+            "db_value": "status",
+            "is_mandatory": False,
+        },
         "reference_id": {
             "db_value": "reference_id",
             "is_mandatory": False,
         },
-        "first_name": {"db_value": "first_name", "is_mandatory": True},
-        "middle_name": {"db_value": "middle_name", "is_mandatory": False},
-        "last_name": {"db_value": "last_name", "is_mandatory": False},
-        "gender": {"db_value": "gender", "is_mandatory": True},
-        "corporate_identifier": {
-            "db_value": "corporate_identifier",
+        "user_password": {
+            "db_value": "password",
             "is_mandatory": False,
         },
-        "address": {
-            "db_value": "address",
+        "user_profile_photo_url": {
+            "db_value": "profile_picture",
             "is_mandatory": False,
         },
-        "pin_code": {
-            "db_value": "pin_code",
+        "user_address": {
+            "db_value": "address_id",
             "is_mandatory": False,
-        },
-        "address_type": {
-            "db_value": "address_type",
-            "is_mandatory": False,
-        },
-        "landmark": {
-            "db_value": "landmark",
-            "is_mandatory": False,
-        },
+        },  # this will not be mapped to address id
     }
 
 

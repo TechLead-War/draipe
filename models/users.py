@@ -36,14 +36,15 @@ class Users(Model):
     last_name = fields.CharField(max_length=50)
     created_on = fields.DatetimeField(auto_now_add=True)
     updated_on = fields.DatetimeField(null=True)
-    email = fields.CharField(max_length=50, collation='NOCASE')
+    email = fields.CharField(max_length=50, collation='NOCASE', unique=True)
     dob = fields.DateField(null=False)
     number = fields.CharField(index=True, max_length=10, null=False)
     number_code = fields.CharField(max_length=3)
     gender = fields.CharField(max_length=1, null=False, collation='NOCASE')
     metadata = fields.JSONField(null=True)
     status = fields.CharField(max_length=10, default=UserStatus.ACTIVE.value)
-    username = fields.CharField(max_length=50, null=False)
+    username = fields.CharField(max_length=50, null=False)  # we'll generate
+    # - firstname + secondname + some_id
     premium_user = fields.BooleanField(default=False)
     premium_buy_on = fields.DatetimeField(null=True)
     reference_id = fields.TextField(null=True)

@@ -49,4 +49,6 @@ Features
 
 
 
-1. context
+1. context manager
+2. premium buy route
+3. reactive account 
