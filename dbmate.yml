@@ -1,0 +1,2 @@
+database: postgres://corporate_service_user:Jellyfish_pass@localhost:5432/Jellyfish_database
+migrations_dir: ./migrations

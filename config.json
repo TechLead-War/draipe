@@ -1,0 +1,6 @@
+{
+  "DB_NAME": "auth_service_database",
+  "DB_USER": "auth_service_user",
+  "DB_PASS": "auth_service_pass",
+  "DB_URL": "postgres://corporate_service_user:Jellyfish_pass@localhost:5432/Jellyfish_database"
+}
