@@ -29,3 +29,20 @@ class HTTPStatusCodes(Enum):
 class ORMConstant(Enum):
     DEFAULT_LIMIT = 100
     DEFAULT_OFFSET = 0
+
+
+class Roles(Enum):
+    ROLE_ADMIN = "ROLE_ADMIN"
+    ROLE_USER = "ROLE_USER"
+    ROLE_SUB_ADMIN = "ROLE_SUB_ADMIN"
+
+
+class OrderStatusTypes(Enum):
+    ORDER_PLACED = "order placed."
+    SYSTEM_APPROVAL_PENDING = "system approval pending."
+    SYSTEM_APPROVED = "system approved, will be shipped soon."
+    USER_CONSENT_PENDING = "user consent pending"
+    USER_APPROVED = "user approved"
+    USER_DECLINED = "user declined"
+    ORDER_CANCELLED = "order cancelled"
+    ORDER_PROCESSED = "order processed"

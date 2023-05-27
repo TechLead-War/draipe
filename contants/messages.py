@@ -52,3 +52,22 @@ class ErrorMessages(Enum):
     INVALID_NUMBER = "Invalid phone number"
     PRESIGNED_URL_ERROR = "Not able to generate Presigned URL."
 
+
+class EmailMessages(Enum):
+    # these template messages will be changed.
+    SUCCESS_MESSAGE = """
+            Order placed, will be shipped.
+        """
+    FAILURE_MESSAGE = """
+
+        Order failed.
+
+        """
+    ORDER_DELIVERED = """
+        order 
+    """
+
+    ORDER_DISPATCHED = """
+    
+    """
+

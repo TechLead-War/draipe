@@ -1,4 +1,5 @@
 import secrets
+from enum import Enum
 
 
 class Keys:
@@ -65,3 +66,14 @@ class Keys:
 class Secret:
     # add this key in vault, and to be created once.
     JWT_secret_key = str(secrets.SystemRandom().getrandbits(256))
+
+
+class RetryRequestConstant(Enum):
+    """
+    This class contains constant used in retrying
+    API calls
+    """
+
+    RETRY_TIME = 5 * 10
+    BACK_OFF_FACTOR = 2
+    NO_OF_RETRY = 3
