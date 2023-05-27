@@ -3,6 +3,7 @@ from urllib.request import Request
 
 from asyncio.log import logger
 from contants import UserStatus, Keys
+from contants.exceptions import OperationalError
 from contants.messages import ErrorMessages
 from managers.users import UserManager
 from sanic import Blueprint
@@ -40,11 +41,8 @@ async def create_user(request):
         result = await UserManager.create_user(data)
         return await send_response(result)
 
-    except ValueError as ex:
+    except OperationalError as ex:
         logger.error('Invalid data: %s', ex)
-
-    except Exception as ex:
-        logger.error(f"Exception occurred: {ex}")
 
 
 # User login

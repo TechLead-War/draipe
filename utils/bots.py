@@ -4,6 +4,7 @@ from os import abort
 from datetime import datetime
 from urllib.request import Request
 import aiofiles
+import requests
 
 
 async def log_request(request: Request):
@@ -30,3 +31,11 @@ async def block_bots(request):
     if user_agent and bot_regex.search(user_agent):
         logger.warning(f"Blocked bot with user agent: {user_agent}")
         abort()
+
+
+response = requests.get("http://your-website.com/your-route")
+if response.status_code == 200:
+    print("Route called successfully")
+else:
+    print("Failed to call the route")
+    

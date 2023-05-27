@@ -4,7 +4,7 @@ from sanic_cors import CORS
 from sanic_limiter import Limiter, get_remote_address
 
 from routes import blueprint_group
-from utils.bots_and_cron import block_bots, log_request
+from utils.bots import block_bots, log_request
 from utils.env import CONFIG
 from urllib.request import Request
 

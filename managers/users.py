@@ -70,16 +70,21 @@ class UserManager:
             raise UserProcessingError(ErrorMessages.INVALID_DATE.value)
         if not is_valid_gender(user_data["gender"]):
             raise UserProcessingError(ErrorMessages.INVALID_GENDER.value)
-        # user already present - DUPLICATE_USER: errormsg
-        await is_email_or_phone_taken(user_data["email"], user_data["phone"])
         if not is_valid_number(user_data["number"]):
             raise UserProcessingError(
                 ErrorMessages.INVALID_NUMBER.value
             )
+        if await is_email_or_phone_taken(user_data["email"],
+                                         user_data["phone"]):
+            raise UserProcessingError(ErrorMessages.USER_ALREADY_PRESENT.value)
 
     @classmethod
     async def create_user(cls, payload: dict):
-        #  verify if we require a check for non-null values.
+        """
+            Verify if all data required is given, and populate some system
+            generate values in payload for further processing.
+        """
+
         beneficiary_mapping = Keys.VALUE_MAPPING_FOR_USER.value
         user_data = await cls.verify_user_data(
             payload, beneficiary_mapping

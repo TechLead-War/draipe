@@ -6,6 +6,7 @@ class ErrorMessages(Enum):
     API_KEY_ERROR = "Exception occurred on {} API"
     DUPLICATE_USER = "{} already exists, please try to login"
     DUPLICATE_ITEM = "Duplicate value of {} already exists"
+    USER_ALREADY_PRESENT = "User with these details already present."
     MOBILE_ALREADY_PRESENT = "Mobile number linked to a different account"
     ACTION_TYPE_ERROR = "Action can be of type add, update, delete"
     USER_CREATE_ERROR = "Unable to create user"

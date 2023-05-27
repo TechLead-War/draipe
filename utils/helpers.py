@@ -1,10 +1,8 @@
-# Check if phone number if correct.
-# check for valid email
 import os
+import re
 from datetime import datetime
-from typing import re
-from tortoise.query_utils import Q
-import models
+
+from tortoise import models
 from models import Users
 
 
@@ -66,14 +64,10 @@ def is_valid_number(number: str) -> bool:
     if not isinstance(number, str):
         number = str(number)
     phone_re = re.compile(r"^[26789]\d{9}$")
-    return re.match(phone_re, number)
-
-
-async def get_user_by_email_or_phone(email, phone_number):
-    return await Users.get_or_none(models.Q(email=email) | models.Q(
-        phone_number=phone_number))
+    return bool(re.match(phone_re, number))
 
 
 async def is_email_or_phone_taken(email, phone_number):
-    user = await get_user_by_email_or_phone(email, phone_number)
-    return user is not None
+    return await Users.filter(
+        models.Q(email=email) | models.Q(phone_number=phone_number)
+    ).exists()
