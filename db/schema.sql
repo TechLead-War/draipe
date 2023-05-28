@@ -28,21 +28,29 @@ CREATE TABLE public.schema_migrations (
 
 CREATE TABLE public.users (
     id uuid NOT NULL,
+    first_name character varying(50) NOT NULL,
+    last_name character varying(50) NOT NULL,
     created_on timestamp with time zone DEFAULT now(),
     updated_on timestamp with time zone,
-    email character varying(255),
+    email character varying(50) COLLATE pg_catalog."C",
     dob date NOT NULL,
     number character varying(10) NOT NULL,
     number_code character varying(3),
-    gender character varying(1) NOT NULL,
-    metadata json,
+    gender character varying(1) NOT NULL COLLATE pg_catalog."C",
     status character varying(10) DEFAULT 'ACTIVE'::character varying NOT NULL,
-    username character varying(50) NOT NULL,
+    username character varying(50),
     premium_user boolean DEFAULT false,
     premium_buy_on timestamp without time zone,
-    reference_id text,
+    reference_id text DEFAULT true,
+    password character varying(500) NOT NULL,
     deactivation_reason character varying(50) DEFAULT 'NOT_DEACTIVATED'::character varying NOT NULL,
-    password character varying(500) NOT NULL
+    profile_picture character varying(255),
+    address_id text,
+    is_email_verified bigint,
+    is_number_verified bigint,
+    is_loyal_customer bigint,
+    cart_id bigint,
+    referral_id character varying(255)
 );
 
 
@@ -55,11 +63,26 @@ ALTER TABLE ONLY public.schema_migrations
 
 
 --
+-- Name: users users_email_key; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.users
+    ADD CONSTRAINT users_email_key UNIQUE (email);
+
+
+--
 -- Name: users users_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public.users
     ADD CONSTRAINT users_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: users_email_idx; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX users_email_idx ON public.users USING btree (lower((email)::text));
 
 
 --

@@ -46,3 +46,7 @@ class OrderStatusTypes(Enum):
     USER_DECLINED = "user declined"
     ORDER_CANCELLED = "order cancelled"
     ORDER_PROCESSED = "order processed"
+
+
+class Code_Constants(Enum):
+    date_format = "%Y-%m-%d"

@@ -1,5 +1,6 @@
 1. Start the service by -
-     pip install -r requirements.txt
+     pip install -r requirements.txt 
+     dbmate -u 'postgres://<db_user>:<db_pass>@localhost:<port>/<db_name>?sslmode=disable' up
      sanic service:app --debug --reload
 
 2. Please do not install the latest version of dependencies, there are several 

@@ -9,8 +9,8 @@ from contants.messages import ErrorMessages
 from models.users import Users
 from models.orm_wrappers import ORMWrapper
 from utils.helpers import is_valid_dob, is_valid_gender, is_valid_number, \
-    is_email_or_phone_taken
-from utils.parsers import rectify_payload
+    is_email_or_phone_taken, serialize_date
+from utils.parsers import rectify_payload, send_response
 
 user = Blueprint("users", url_prefix="/user")
 
@@ -45,15 +45,25 @@ class UserManager:
         resultant_user_data = dict()
         for key, value in user_value_mapping.items():
             if value["is_mandatory"]:
-                if not user_payload[key]:
+                if not user_payload.get(key, {}):
                     raise UserProcessingError(
                         f"Missing {key} in beneficiary data"
                     )
+            if user_payload.get(key):
+                resultant_user_data.update({
+                    value["db_value"]: user_payload[key]
+                })
+            else:
+                resultant_user_data.update({
+                    value["db_value"]: "user_payload[key]"
+                })
+
         # populate system generated values
-        user_payload["created_on"] = str(datetime.now())
-        user_payload["dob"] = str(user_payload["dob"])
-        user_payload["metadata"] = ""
-        user_payload["status"] = UserStatus.ACTIVE.value
+        resultant_user_data["created_on"] = str(datetime.now().isoformat())
+        resultant_user_data["dob"] = serialize_date(resultant_user_data["dob"])
+        resultant_user_data["metadata"] = ""
+        resultant_user_data["status"] = UserStatus.ACTIVE.value
+        resultant_user_data["referral_id"] = "12"
 
         return resultant_user_data
 
@@ -66,6 +76,7 @@ class UserManager:
             incorrect format of any details
 
         """
+        print(user_data)
         if not is_valid_dob(user_data["dob"]):
             raise UserProcessingError(ErrorMessages.INVALID_DATE.value)
         if not is_valid_gender(user_data["gender"]):
@@ -75,7 +86,7 @@ class UserManager:
                 ErrorMessages.INVALID_NUMBER.value
             )
         if await is_email_or_phone_taken(user_data["email"],
-                                         user_data["phone"]):
+                                         user_data["number"]):
             raise UserProcessingError(ErrorMessages.USER_ALREADY_PRESENT.value)
 
     @classmethod
@@ -85,18 +96,24 @@ class UserManager:
             generate values in payload for further processing.
         """
 
-        beneficiary_mapping = Keys.VALUE_MAPPING_FOR_USER.value
+        user_mapping = Keys.VALUE_MAPPING_FOR_USER.value
         user_data = await cls.verify_user_data(
-            payload, beneficiary_mapping
+            payload, user_mapping
         )
+        print(user_data)
+        print("woww")
 
         # validate user
         await cls.validate_user_data(user_data)
 
         # create user in our database
-        new_user = await ORMWrapper.create(Users, payload)
+        new_user = await ORMWrapper.create(Users, user_data)
         new_user = new_user.__dict__  # convert object to dict
-        return await rectify_payload(new_user)
+        new_user = await rectify_payload(new_user)
+        new_user["dob"] = str(new_user["dob"])
+        new_user["created_on"] = str(new_user["created_on"])
+
+        return await send_response(body=new_user)
 
     @classmethod
     async def update_user(cls, user_id: str, update_data: dict):

@@ -2,7 +2,7 @@ import secrets
 from enum import Enum
 
 
-class Keys:
+class Keys(Enum):
     # This is the key that is used to remove extra data send in response.
     keys_to_remove = [
         'id',

@@ -61,3 +61,777 @@ Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*',
 Request data: None
 Request time: 2023-05-24 19:51:08.885917
 
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/ping?name=Ayush
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '02903069-1ece-4195-9e25-cead8e4d1033', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-05-27 13:44:23.654014
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'c81fdd9c-0594-4443-89da-cbc6e34894b3', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 13:44:53.888366
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'fad5f4ec-fc6d-45ec-9738-02cdf88f3bda', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 13:45:23.209275
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'c426d026-7a48-45c5-a043-1582ad5e315f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 13:50:08.565337
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '5baa8cd3-0fec-4aa2-9205-81e24ffbc8e7', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 13:50:24.774823
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '13a7b62b-9659-4480-9646-1db6b5a7870f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 13:50:38.918518
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'e7b94633-7ce0-42b8-aefb-52e6578dda61', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 13:53:04.522959
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'e52542f6-16a3-4c92-b6d4-06c8ef5a03c3', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 13:53:15.359391
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '6cf1c4e7-2cb7-4a10-bcd7-e628b2e56323', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 13:53:52.535307
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '8992a5d3-fb82-4e3a-9973-4fbc08a9cd84', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 13:55:27.964584
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '95a70343-8130-4408-b5f9-15a9cc5a5835', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 13:57:19.801868
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '50984563-bc8d-4296-9fda-5243c32ce8d3', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 13:57:34.394273
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '8951ef5f-ff0b-47de-959b-c2dd7f1dc459', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 13:57:55.178316
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '3a31bf97-504f-474c-b142-f3812df76eef', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 13:59:28.489504
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '47d28365-344a-4462-9ef0-799f66a40ec1', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 14:00:29.298165
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'aebe1a1b-f619-4b75-ab4f-3b05fa204b32', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 14:01:12.768655
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '0d89ef4e-3b41-4421-929a-99b2c7636da0', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-05-27 14:01:20.466226
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'e2906a23-942e-4987-af75-448aabb0cfad', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '8')>
+Request data: {}
+Request time: 2023-05-27 14:10:32.584453
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '3b539f59-f529-4b80-b274-dbffa5157afc', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '239')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'user_status': 'active'}
+Request time: 2023-05-27 14:14:59.533649
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '62776149-bfc9-4934-97a8-61dfef949bda', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '242')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'user_status': 'active'}
+Request time: 2023-05-27 14:15:18.665997
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '82ac09dd-7a98-4e7f-9885-167173d56f3a', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '215')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'dob': '12-12-2002', 'number': '6397871885', 'number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 14:16:04.521886
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '4a951564-b4df-4148-bfb4-14f9d111695b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '215')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'dob': '12-12-2002', 'number': '6397871885', 'number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 14:16:12.087239
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'ca80c858-1b50-482c-84d1-b11dae80c69e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '225')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'number': '6397871885', 'number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 14:16:29.072455
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'f64bbdea-96ac-411e-b06a-3ee560e049d3', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 14:16:40.056366
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'fabf99af-e10f-48d8-beb7-0a4359e89f29', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 14:17:05.128640
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '0ebc4b54-cad0-4784-9c36-c7b32fafcfbb', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 15:43:44.416958
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '19f6c128-4aac-48c7-aaf7-26d99035d4dc', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 15:46:02.811494
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'a7a7617c-b0e7-49bf-b29c-00340f73e697', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 15:46:23.503837
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '6b5cf1fb-5060-4ec8-ab9a-99821a890e90', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 15:47:38.305459
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '99624ccd-40bc-4165-a17e-a3b6cd24b3aa', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 15:47:44.036893
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '01a95826-423a-4286-8865-ff834b5beb5b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 15:49:09.988865
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'a900c8ad-9fe8-4f33-a7e3-900fb06bdda7', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 15:55:26.497034
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '37b07f34-cbc0-4b0e-b964-cab29a746a25', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 15:56:14.207616
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'f5561b97-cede-49d5-a3e5-ff67f4753e00', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '12-12-2002', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 15:57:27.300269
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '75791287-3766-453b-acc5-dc823c597d88', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 15:57:46.219363
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '3c5ff106-268e-4b7d-884e-37716b231512', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 15:58:41.572879
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '9475cf56-a9e5-4072-a8fa-e5b3b85fa253', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 16:01:12.997435
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '6fdeebb0-27ac-47c2-af50-9ba7ff5fd6dd', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 16:02:22.026342
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '77b69313-e36d-4dfb-beff-3daa172d1039', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 16:03:55.278521
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'edbf367e-c227-4a5f-97a3-ae7b2e20f291', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 16:07:21.593875
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b149218b-7f27-45a0-8a32-fc0908334a94', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '237')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active'}
+Request time: 2023-05-27 16:20:30.757252
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '1ace3b4d-4636-456f-96fc-a91ff03f42cd', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '260')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active', 'password': 'abc'}
+Request time: 2023-05-27 16:27:03.615799
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '92bd6f3b-2803-4463-a7d6-a1df3fbaa39b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '294')>
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '2d6da26c-f3f1-4c20-85b7-ec4bb89003a0', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '288')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active', 'password': 'abc', 'premium_user': 'True'}
+Request time: 2023-05-27 16:31:31.538055
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '10e746c6-309b-4235-bd19-3d45ad1898c3', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '288')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active', 'password': 'abc', 'premium_user': 'True'}
+Request time: 2023-05-27 16:32:42.304278
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '09a84da3-618e-47eb-bbdf-f885dc083bfa', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '288')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active', 'password': 'abc', 'premium_user': 'True'}
+Request time: 2023-05-27 16:32:58.318736
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '1ec9df6b-7ebb-44e0-9288-5f11471f04d1', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '288')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active', 'password': 'abc', 'premium_user': 'True'}
+Request time: 2023-05-27 16:33:55.065509
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '80fc51f9-f9fa-4b38-9a84-2384becf63a3', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '213')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm'}
+Request time: 2023-05-27 16:36:31.200170
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '5bb307a7-ce8d-4a70-87fd-d814222deaaa', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '288')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active', 'password': 'abc', 'premium_user': 'True'}
+Request time: 2023-05-27 16:36:50.051446
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'cfe28da8-5d6c-49b2-863d-0955bae14954', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '288')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active', 'password': 'abc', 'premium_user': 'True'}
+Request time: 2023-05-27 20:47:17.379464
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '2dc4bff3-870b-4b37-8318-eb1cb190ab2b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '288')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active', 'password': 'abc', 'premium_user': 'True'}
+Request time: 2023-05-29 03:10:30.141301
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '4545de97-fa9d-44e0-abc1-0a43d5ec6a14', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '432')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active', 'password': 'abc', 'premium_user': 'True', 'referral_id': '1', 'cart_id': '1', 'is_loyal_customer': 'True', 'is_number_verified': 'True', 'is_email_verified': 'True'}
+Request time: 2023-05-29 03:12:31.739693
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '6c45d650-87ad-4c82-a650-b3df53dc962b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '432')>
+Request data: {'first_name': 'Ayush', 'last_name': 'Kapri', 'email_id': 'ayushkap@gmail.com', 'date_of_birth': '2002-12-12', 'phone_number': '6397871885', 'phone_number_code': '+91', 'gender': 'm', 'status': 'active', 'password': 'abc', 'premium_user': 'True', 'referral_id': '1', 'cart_id': '1', 'is_loyal_customer': 'True', 'is_number_verified': 'True', 'is_email_verified': 'True'}
+Request time: 2023-05-29 03:12:49.813526
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'd6a1920c-7379-4a76-92f8-0225bb798228', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '596')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email': 'johndoe@example.com', 'dob': '1990-05-15', 'number': '1234567890', 'number_code': 'ABC', 'gender': 'M', 'metadata': {'age': 30, 'city': 'New York', 'country': 'USA'}, 'username': 'johndoe123', 'premium_user': 'False', 'password': 'hashed_password', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '12345', 'is_email_verified': 1, 'is_number_verified': 1, 'is_loyal_customer': 1, 'cart_id': 123, 'referral_id': 'ABC123'}
+Request time: 2023-05-29 03:14:36.315188
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '6d7a8f87-c6ca-4137-a30c-9500aee614c8', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '596')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email': 'johndoe@example.com', 'dob': '1990-05-15', 'number': '1234567890', 'number_code': 'ABC', 'gender': 'M', 'metadata': {'age': 30, 'city': 'New York', 'country': 'USA'}, 'username': 'johndoe123', 'premium_user': 'False', 'password': 'hashed_password', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '12345', 'is_email_verified': 1, 'is_number_verified': 1, 'is_loyal_customer': 1, 'cart_id': 123, 'referral_id': 'ABC123'}
+Request time: 2023-05-29 03:14:49.918508
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'f76669ca-2904-4c03-904c-c8b210d2e1e5', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '599')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'dob': '1990-05-15', 'number': '1234567890', 'number_code': 'ABC', 'gender': 'M', 'metadata': {'age': 30, 'city': 'New York', 'country': 'USA'}, 'username': 'johndoe123', 'premium_user': 'False', 'password': 'hashed_password', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '12345', 'is_email_verified': 1, 'is_number_verified': 1, 'is_loyal_customer': 1, 'cart_id': 123, 'referral_id': 'ABC123'}
+Request time: 2023-05-29 03:15:38.535944
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '75e16243-514f-4cd3-9ca2-678b46630806', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '609')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'number': '1234567890', 'number_code': 'ABC', 'gender': 'M', 'metadata': {'age': 30, 'city': 'New York', 'country': 'USA'}, 'username': 'johndoe123', 'premium_user': 'False', 'password': 'hashed_password', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '12345', 'is_email_verified': 1, 'is_number_verified': 1, 'is_loyal_customer': 1, 'cart_id': 123, 'referral_id': 'ABC123'}
+Request time: 2023-05-29 03:15:46.290760
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '927b5d5c-9129-44bd-b5aa-22cec1e2b365', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '621')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '1234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'metadata': {'age': 30, 'city': 'New York', 'country': 'USA'}, 'username': 'johndoe123', 'premium_user': 'False', 'password': 'hashed_password', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '12345', 'is_email_verified': 1, 'is_number_verified': 1, 'is_loyal_customer': 1, 'cart_id': 123, 'referral_id': 'ABC123'}
+Request time: 2023-05-29 03:15:55.838876
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b81746dc-e1ec-4bf6-8ee3-d6985ee5aa90', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '621')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'metadata': {'age': 30, 'city': 'New York', 'country': 'USA'}, 'username': 'johndoe123', 'premium_user': 'False', 'password': 'hashed_password', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '12345', 'is_email_verified': 1, 'is_number_verified': 1, 'is_loyal_customer': 1, 'cart_id': 123, 'referral_id': 'ABC123'}
+Request time: 2023-05-29 03:16:06.069900
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '5c5202ab-7ed4-49de-be50-97a9a76e5a3b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '621')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'metadata': {'age': 30, 'city': 'New York', 'country': 'USA'}, 'username': 'johndoe123', 'premium_user': 'False', 'password': 'hashed_password', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '12345', 'is_email_verified': 1, 'is_number_verified': 1, 'is_loyal_customer': 1, 'cart_id': 123, 'referral_id': 'ABC123'}
+Request time: 2023-05-29 03:18:28.123541
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '71ce056e-f80e-44a2-8964-1d2975602cf1', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '621')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'metadata': {'age': 30, 'city': 'New York', 'country': 'USA'}, 'username': 'johndoe123', 'premium_user': 'False', 'password': 'hashed_password', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '12345', 'is_email_verified': 1, 'is_number_verified': 1, 'is_loyal_customer': 1, 'cart_id': 123, 'referral_id': 'ABC123'}
+Request time: 2023-05-29 03:18:53.049380
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '67f3320e-8d1f-4de9-8c10-f13c38565399', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '712')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email': 'johndoe@example.com', 'dob': '1990-05-15', 'number': '1234567890', 'number_code': 'ABC', 'gender': 'M', 'metadata': {'age': 30, 'city': 'New York', 'country': 'USA'}, 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:20:50.473396
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'f72b4dbc-56e3-422d-b832-cc887eec9f0c', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '637')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email': 'johndoe@example.com', 'dob': '1990-05-15', 'number': '1234567890', 'number_code': 'ABC', 'gender': 'M', 'metadata': 'hi', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:21:02.411450
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '0733c96b-4452-48cb-be83-24c413c864a3', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '662')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '1234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'metadata': 'hi', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:21:23.655809
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '77a880e2-0d6d-4884-b73f-92d7d0a2342e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '662')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'metadata': 'hi', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:21:31.625678
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b2d1b2ad-2517-482d-8146-6f7ec83138b9', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:22:57.963915
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '7390cf9e-31d9-42ba-a450-74c29fcf1450', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:24:28.586260
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'bf1437b2-680f-4c21-a6da-eb4bd62f835e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:25:04.736624
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '3ab4a506-7c3b-43d0-a182-ba64b22f3b8e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:26:27.370511
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '2530aabf-dac8-4569-89ac-aff780dbc866', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:27:27.552933
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '92683190-a251-42cf-aad7-b6943d322c3b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:27:41.566627
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'f61433a4-ed02-419a-ad54-3de7407f08cf', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:42:15.567761
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'aee95fa1-bc66-4877-8a21-5aac54ac5253', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:49:06.194601
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '923a53a0-052d-4c18-ad3b-fb667fc2ae93', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:52:37.276726
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'e0ec379a-58b3-40f9-87a8-c40d0f7e2e05', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:53:31.390087
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '23bb113a-acae-4cbc-9876-6f5305463095', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:54:55.589194
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '822fba2c-3b1e-4e54-a479-e58c35173d80', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:56:36.197307
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '607a560d-da1e-4313-96c6-ca6513c377ab', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 03:59:22.029108
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '05895a8d-afb1-46cf-b444-7b414ed6d7de', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:00:01.823141
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '760cf007-c5a4-4321-98eb-81a2280b5a87', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:00:56.485490
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '687b706c-d976-47fa-9943-cee3e80629bb', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:01:20.839455
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '7ec65a86-b87d-4cfa-b015-0c117b15c9aa', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:02:05.504721
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'baad2ec9-191e-48e3-b737-3b3b797fb97f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:05:04.529005
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b5b76726-e3d4-4b69-a780-0e3abfd7066f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '640')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndoe@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9234567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:05:56.361342
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '48a97db9-6db0-4eb6-bd0c-d976e5d4c385', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '639')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johndo@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9334567890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:07:02.331225
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '7699b5a5-f7b1-488e-a60d-293fb2f71835', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '639')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johneo@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9334517890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:09:05.082700
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'bc663e0b-445c-4192-af16-594eec968e6b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '639')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johneo@example.com', 'date_of_birth': '1990-05-15', 'phone_number': '9334517890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:09:40.164175
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b3dec4bd-4374-4f2c-aef3-5542aa6664ef', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '638')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johneo@exaple.com', 'date_of_birth': '1990-05-15', 'phone_number': '9334517890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:09:48.164900
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'd7848796-fc10-4440-b105-e59e816bc7ef', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '638')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johneo@exaple.com', 'date_of_birth': '1990-05-15', 'phone_number': '9334517890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:09:52.759815
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'fd8af5b3-9ccd-4fec-9ddf-ab1c132110a4', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '637')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johneo@xaple.com', 'date_of_birth': '1990-05-15', 'phone_number': '9334117890', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:10:01.509251
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'eac5696d-9e0c-4bb2-a2cc-fc30fd5a0cdc', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '636')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johneo@xale.com', 'date_of_birth': '1990-05-15', 'phone_number': '9334117891', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:10:54.245798
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'bb250e4c-fd62-401c-8d5c-7a77fbb1a93a', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '638')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johneoas@xale.com', 'date_of_birth': '1990-05-15', 'phone_number': '9331117891', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:11:26.311901
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '78ee8b15-7026-45e4-8327-b445be3fc2d0', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '636')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johnas@xale.com', 'date_of_birth': '1990-05-15', 'phone_number': '9331117191', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:12:19.208001
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '4813092e-9dae-4b16-8cc4-0e6cce57d577', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '635')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johnas@xal.com', 'date_of_birth': '1990-05-15', 'phone_number': '9331117291', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:13:04.993944
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'f40e5dbd-5f1e-412b-9c1e-a00af1558d82', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '634')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johns@xal.com', 'date_of_birth': '1990-05-15', 'phone_number': '9331517291', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:14:55.791431
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '21f82b2b-929b-49e4-a867-be21c0f1521d', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '635')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johns@xal3.com', 'date_of_birth': '1990-05-15', 'phone_number': '9331817291', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:15:42.622148
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'bb976805-1bbc-4da2-9dc1-b6613564bc5e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '636')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johns@xal3.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '9331817292', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:17:19.382026
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '50a5745e-ff4f-4c4b-b7bc-801ff5fe5d4b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '636')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'johns@xa33.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '9331817192', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:19:35.020243
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'ebcd2710-ee14-4ea0-b470-00a507e68186', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '635')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'jhns@xa33.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '9331817112', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:29:16.428149
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '3f9274be-9f7d-43ac-952f-eb87e5c962a3', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '634')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hns@xa33.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '7331817112', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:30:14.579119
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'a734448e-7f21-4c0f-98ff-14190df62a24', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '634')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hns@xa33.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '7331817112', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:31:21.223208
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'd7229560-75a1-43c2-8ebe-e1fb60425d58', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '635')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hns@xa433.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '7431817112', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:31:29.204068
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '5f13de79-9416-4a8c-8bf4-d44492ede84e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '636')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hnss@xa433.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '7431217112', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:32:21.788660
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'e82aed2e-c6eb-40c8-8f27-d23614d8e7ff', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '636')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hnss@xa483.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '7431211112', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:32:59.576322
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '717dbfee-9f77-47dc-9525-68949717cac7', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '635')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hss@xa483.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '7438211112', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:34:09.723044
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '35ca0492-3333-41eb-80fd-7208ee54bf81', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '634')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hss@a483.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '7418211112', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:35:13.606734
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '2870b235-d384-4980-9a26-51653e22b1e1', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '635')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hss1@a483.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '7411211112', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:36:31.106586
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '9ffb642f-bf8b-4b8b-9cf3-39238046bd5e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '635')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hs11@a483.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '7411231112', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:37:30.792631
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'c383c4e9-a4b9-4652-a322-bd76f802f87d', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '636')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hs111@a483.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '7411231112', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:39:34.656913
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '5b7d936a-66d5-4fd6-b15c-73a3f0400a93', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '637')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hs1115@a483.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '7411235112', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:39:43.301575
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '9385ecd1-0dcb-4bff-a6ad-5b178d13542e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '638')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hs11915@a483.c3om', 'date_of_birth': '1990-05-15', 'phone_number': '7411235119', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-05-29 04:40:36.347649
+

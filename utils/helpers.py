@@ -2,6 +2,8 @@ import os
 import re
 import pytz
 from tortoise import models
+
+from contants.enums import Code_Constants
 from models import Users
 from datetime import date, datetime
 from typing import Union
@@ -69,9 +71,9 @@ def is_valid_number(number: str) -> bool:
     return bool(re.match(phone_re, number))
 
 
-async def is_email_or_phone_taken(email, phone_number):
+async def is_email_or_phone_taken(email, number):
     return await Users.filter(
-        models.Q(email=email) | models.Q(phone_number=phone_number)
+        models.Q(email=email) | models.Q(number=number)
     ).exists()
 
 
@@ -206,3 +208,32 @@ def convert_to_datetimeobj(datetimestring: str):
     """
     converted_time = datetime.strptime(datetimestring, "%Y-%m-%d %H:%M:%S")
     return converted_time
+
+
+def convert_to_date_obj(datestring: str):
+    """
+    This function converts the date string to date object.
+    Args:
+        date string: datetime in string without time zone.
+
+    Returns:
+        date object without time zone.
+    """
+
+    try:
+        date_object = datetime.strptime(datestring,
+                                        Code_Constants.date_format.value).date()
+        return date_object
+    except ValueError:
+        return None
+
+
+def serialize_date(given_date: Union[date, datetime]):
+    """
+    This function convert datetime.date object to a JSON serializable value.
+    To resolve this issue, we convert the datetime.date object to a
+    string representation before assigning it to the dob field.
+    """
+    if isinstance(given_date, str):
+        given_date = convert_to_date_obj(given_date)
+    return given_date.isoformat()

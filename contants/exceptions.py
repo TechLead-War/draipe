@@ -1,3 +1,8 @@
+class ExpectedDataNotFound(Exception):
+    def __init__(self, message):
+        self.message = message
+
+
 class UserProcessingError(Exception):
     def __init__(self, message):
         self.message = message

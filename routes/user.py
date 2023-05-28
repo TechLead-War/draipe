@@ -2,8 +2,8 @@ from datetime import datetime
 from urllib.request import Request
 
 from asyncio.log import logger
-from contants import UserStatus, Keys
-from contants.exceptions import OperationalError
+from contants import UserStatus, Keys, HTTPStatusCodes
+from contants.exceptions import OperationalError, ExpectedDataNotFound
 from contants.messages import ErrorMessages
 from managers.users import UserManager
 from sanic import Blueprint
@@ -36,13 +36,19 @@ async def create_user(request):
 
     try:
         data = request.json
-
+        if not data:
+            raise ExpectedDataNotFound("Payload is not provided!")
         # call manager to create object in 'Users' database
+        print(data)
+        print("haha")
         result = await UserManager.create_user(data)
         return await send_response(result)
 
-    except OperationalError as ex:
+    except ExpectedDataNotFound as ex:
         logger.error('Invalid data: %s', ex)
+        return await send_response(body={
+            "response": "Proper payload not provided!",
+            "status_code": HTTPStatusCodes.BAD_REQUEST.value})
 
 
 # User login
@@ -58,7 +64,8 @@ async def login(request: Request):
         return send_response({'message': 'User logged in successfully'})
     else:
         # Invalid credentials
-        return send_response({'message': 'Invalid username or password'}, status=401)
+        return send_response({'message': 'Invalid username or password'},
+                             status=401)
 
 
 # User profile
@@ -66,7 +73,8 @@ async def login(request: Request):
 async def profile(request: Request, user_id):
     # Retrieve user profile based on user_id
     # Handle logic to fetch user profile here
-    return send_response({'user_id': user_id, 'name': 'John Doe', 'email': 'john@example.com'})
+    return send_response(
+        {'user_id': user_id, 'name': 'John Doe', 'email': 'john@example.com'})
 
 
 # Update user profile
