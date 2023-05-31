@@ -1,12 +1,13 @@
-import aiofiles
 import os
 import sys
-from aiobotocore import session
 
+import aiofiles
+from aiobotocore import session
 from botocore.exceptions import BotoCoreError, ClientError
 from sanic.log import logger
-from utils.helpers import delete_local_temporary_files
+
 from utils.env import CONFIG
+from utils.helpers import delete_local_temporary_files
 
 
 class S3Manager:

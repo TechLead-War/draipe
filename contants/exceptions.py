@@ -30,3 +30,8 @@ class DBException(Exception):
         self.exception = exception
         self.message = message
         self.to_raise = to_raise
+
+
+class ValidationError(Exception):
+    def __init__(self, message):
+        self.message = message

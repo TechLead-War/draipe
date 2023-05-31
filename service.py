@@ -5,13 +5,13 @@ from sanic_limiter import Limiter, get_remote_address
 
 from routes import blueprint_group
 from utils.bots import block_bots, log_request
-from utils.env import CONFIG
+from utils.env import CONFIG, cors_origins
 from urllib.request import Request
-
 
 app = Sanic(name='Draipe')
 app.config.update_config(CONFIG.config)
-cors = CORS(app, resources={r"/*": {"origins": "*"}})  # allow all routes
+CORS(app, origins=cors_origins)
+
 limiter = Limiter(app, key_func=get_remote_address)
 
 app.blueprint(blueprint_group)

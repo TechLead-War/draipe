@@ -1,15 +1,10 @@
 from datetime import datetime, timedelta
+from functools import wraps
 
-from asyncio.log import logger
+import jwt
 from sanic import Blueprint
-from managers.users import UserManager
 from sanic.request import Request
 from sanic.response import json
-from models import Users
-from functools import wraps
-import jwt
-from models.orm_wrappers import ORMWrapper
-from utils.parsers import send_response
 
 user = Blueprint("user")
 

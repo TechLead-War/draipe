@@ -13,6 +13,23 @@ class Keys(Enum):
         'reference_id'
     ]
 
+    keys_on_get_request = [
+        "id",
+        "password",
+        "created_on",
+        "updated_on",
+        "number_code",
+        "metadata",
+        "status",
+        "username",
+        "premium_user",
+        "premium_buy_on",
+        "reference_id",
+        "password",
+        "deactivation_reason",
+        "address_id",
+    ]
+
     # This key is for validating user payload while creating user
     VALUE_MAPPING_FOR_USER = {
         "first_name": {

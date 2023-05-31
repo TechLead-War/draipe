@@ -6,7 +6,8 @@
 2. Please do not install the latest version of dependencies, there are several 
    models which won't work with the current code.
 
-
+3. If you import any dependency in the file, then please use. isort 
+   <file_name> this will sorts those imports.
 ________________________________________
 PR Guidelines
 

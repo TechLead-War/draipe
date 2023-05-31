@@ -1,12 +1,12 @@
 from urllib.request import Request
+
 from sanic import Blueprint
-
-from models.orm_wrappers import ORMWrapper
-from models.products import Product
-from sanic_jwt import protected, inject_user
 from sanic.response import json
-from utils.parsers import send_response
+from sanic_jwt import inject_user, protected
 
+from managers.orm_wrappers import ORMWrapper
+from models.products import Product
+from utils.parsers import send_response
 
 product = Blueprint("product")
 

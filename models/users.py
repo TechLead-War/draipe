@@ -43,8 +43,8 @@ class Users(Model):
     gender = fields.CharField(max_length=1, null=False, collation='NOCASE')
     # metadata = fields.JSONField(null=True)
     status = fields.CharField(max_length=10, default=UserStatus.ACTIVE.value)
-    username = fields.CharField(max_length=50, null=True)  # we'll generate
-    # - firstname + secondname + some_id
+    username = fields.CharField(max_length=50, null=True)
+    # we'll generate - "some_keyword" + firstname + secondname + some_id
     premium_user = fields.BooleanField(default=False)
     premium_buy_on = fields.DatetimeField(null=True)
     reference_id = fields.TextField(default=True)

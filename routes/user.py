@@ -1,12 +1,11 @@
-from datetime import datetime
+from asyncio.log import logger
 from urllib.request import Request
 
-from asyncio.log import logger
-from contants import UserStatus, Keys, HTTPStatusCodes
-from contants.exceptions import OperationalError, ExpectedDataNotFound
-from contants.messages import ErrorMessages
-from managers.users import UserManager
 from sanic import Blueprint
+
+from contants import HTTPStatusCodes
+from contants.exceptions import ExpectedDataNotFound
+from managers.users import UserManager
 from utils.parsers import send_response
 
 user = Blueprint("user")
@@ -39,10 +38,8 @@ async def create_user(request):
         if not data:
             raise ExpectedDataNotFound("Payload is not provided!")
         # call manager to create object in 'Users' database
-        print(data)
-        print("haha")
         result = await UserManager.create_user(data)
-        return await send_response(result)
+        return await send_response(data=result)
 
     except ExpectedDataNotFound as ex:
         logger.error('Invalid data: %s', ex)
@@ -51,43 +48,67 @@ async def create_user(request):
             "status_code": HTTPStatusCodes.BAD_REQUEST.value})
 
 
-# User login
-@user.route('/login', methods=['POST'])
-async def login(request: Request):
-    payload = request.json  # Access the JSON payload
-    username = payload.get('username')
-    password = payload.get('password')
+# Delete user profile
+@user.route('/profile/<user_id>', methods=['DELETE'])
+async def delete_user(request: Request, number: str):
+    # Delete user profile based on user phone number
+    # Handle logic to delete user profile here
 
-    # Validate username and password
-    if username == 'admin' and password == 'password':
-        # Successful login
-        return send_response({'message': 'User logged in successfully'})
-    else:
-        # Invalid credentials
-        return send_response({'message': 'Invalid username or password'},
-                             status=401)
+    try:
+        # call manager to create object in 'Users' database
+        result = await UserManager.delete_user(number)
+        return await send_response(data=result)
+
+    except ExpectedDataNotFound as ex:
+        logger.error('Invalid data: %s', ex)
+        return await send_response(
+            body={
+                "response": "Proper payload not provided!",
+                "status_code": HTTPStatusCodes.BAD_REQUEST.value
+            }
+        )
+
+
+@user.route('/user/change_pass', methods=["PATCH"])
+async def change_password(request: Request):
+    data = request.json
+
+    phone = data.get("phone")
+    username = data.get("username")
+    current_password = data.get("current_password")
+    new_password = data.get("new_password")
+    confirm_password = data.get("confirm_password")
+
+    user_data = {
+        "phone": phone,
+        "username": username,
+        "current_password": current_password,
+        "new_password": new_password,
+        "confirm_password": confirm_password
+    }
+
+    result = UserManager.change_password(user_data)
+    return send_response(result)
+
+
+@user.route('/user/change_pass', methods=["PATCH"])
+async def update_user(request: Request):
+    payload = request.json
+
+    username = payload.get("username")
+
+    new_payload = {key: value for key, value in payload.items()
+                   if key != username}
+
+    result = UserManager.change_password(username, new_payload)
+    return send_response(result)
 
 
 # User profile
 @user.route('/profile/<user_id>', methods=['GET'])
-async def profile(request: Request, user_id):
+async def get_user_profile(request: Request, user_id):
     # Retrieve user profile based on user_id
     # Handle logic to fetch user profile here
-    return send_response(
-        {'user_id': user_id, 'name': 'John Doe', 'email': 'john@example.com'})
 
-
-# Update user profile
-@user.route('/profile/<user_id>', methods=['PUT'])
-async def update_profile(request: Request, user_id):
-    # Update user profile based on user_id
-    # Handle logic to update user profile here
-    return send_response({'message': 'User profile updated successfully'})
-
-
-# Delete user profile
-@user.route('/profile/<user_id>', methods=['DELETE'])
-async def delete_profile(request: Request, user_id):
-    # Delete user profile based on user_id
-    # Handle logic to delete user profile here
-    return send_response({'message': 'User profile deleted successfully'})
+    result = await UserManager.get_user_details(user_id)
+    return send_response(result)
