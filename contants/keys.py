@@ -94,3 +94,16 @@ class RetryRequestConstant(Enum):
     RETRY_TIME = 5 * 10
     BACK_OFF_FACTOR = 2
     NO_OF_RETRY = 3
+
+
+class SMTPCredentials:
+    # Secret key used for token generation
+    SECRET_KEY = "your_secret_key"
+
+    # Configure email settings
+    SMTP_SERVER = "smtp.gmail.com"
+    SMTP_PORT = 587
+    SMTP_USERNAME = "ayushkapri.richard@gmail.com"
+    SMTP_PASSWORD = "your_gmail_password"
+    SENDER_EMAIL = "ayushkapri.richard@gmail.com"
+    RESET_LINK = "https://draipe.com/reset-password?token="

@@ -314,3 +314,30 @@ class UserManager:
         expired_users = await cls.filter(deleted_on__lte=deletion_date)
         await expired_users.delete()
 
+# Forgot Password: An API endpoint that handles the process of resetting a
+# user's forgotten password, typically by sending a password reset link via
+# email.
+
+# User Preferences: APIs to manage user preferences, such as language
+# preferences, notification settings, theme selection, etc.
+
+# Order History: An API endpoint to fetch the order history of a user,
+# including details like order ID, products ordered, payment status,
+# delivery status, etc.
+
+# Wishlist: APIs to manage a user's wishlist, allowing them to add products,
+# remove products, or view their saved wishlist.
+
+# Address Book: APIs to manage a user's address book, allowing them to add,
+# update, or delete their shipping addresses for easy checkout.
+
+# Account Deactivation: An API endpoint to handle account deactivation or
+# closure, providing users with an option to permanently delete their account.
+
+# Email Subscription: APIs to manage a user's email subscriptions,
+# allowing them to subscribe or unsubscribe from newsletters,
+# promotional emails, etc.
+
+# Social Authentication: APIs to support social authentication,
+# allowing users to log in or register using their social media
+# accounts like Facebook, Google, or Twitter.
