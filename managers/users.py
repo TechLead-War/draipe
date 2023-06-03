@@ -1,6 +1,6 @@
 from asyncio.log import logger
 
-from argon2 import PasswordHasher as Argon2PasswordHasher
+from argon2 import PasswordHasher as Argon2PasswordHasher, exceptions as argon2_exceptions
 from datetime import datetime
 
 from sanic import Blueprint
@@ -9,7 +9,7 @@ from contants import Keys, UserStatus, DeactivationReasons
 from contants.exceptions import UserProcessingError, DBException, \
     OperationalError, ValidationError
 from contants.messages import ErrorMessages
-from managers.generals import fetch_record
+from managers.generals import fetch_record, value_mapper
 from managers.orm_wrappers import ORMWrapper
 from models.users import Users
 from utils.helpers import (is_email_or_phone_taken, is_valid_dob,
@@ -49,7 +49,7 @@ class PasswordHasher:
         try:
             self.ph.verify(hashed_password, password)
             return True
-        except:
+        except argon2_exceptions.VerifyMismatchError:
             return False
 
 
@@ -64,7 +64,6 @@ class UserManager:
         "number",
         "number_code",
         "gender",
-        "metadata",
         "status",
         "username",
         "premium_user",
@@ -99,7 +98,7 @@ class UserManager:
                 "id": user_id
             })
         user_set = await fetch_record(user_details)
-        return await cls.filter_get_data(user_set)
+        return await cls.filter_get_data(user_set[0].__dict__)
 
     @classmethod
     async def verify_user_data(cls, user_payload: dict,
@@ -135,7 +134,7 @@ class UserManager:
                 })
             else:
                 resultant_user_data.update({
-                    value["db_value"]: "user_payload[key]"
+                    value["db_value"]: "not_found"
                 })
 
         # populate system generated values
@@ -199,7 +198,7 @@ class UserManager:
         return new_user
 
     @classmethod
-    async def delete_user(cls, number: str):
+    async def delete_user(cls, user_id: str):
         """
             Deleting a user means deactivating the user status.
         """
@@ -207,11 +206,10 @@ class UserManager:
         deletion_date = datetime.now()
         try:
             user_details = await fetch_record({
-                "number": number
+                "id": user_id
             })
-
             await ORMWrapper.update_with_filters(
-                user_details,
+                user_details[0],
                 Users,
                 {
                     "updated_on": deletion_date,
@@ -227,59 +225,68 @@ class UserManager:
             pass
 
     @classmethod
-    async def change_password(cls, user_data: dict):
+    async def change_password(cls, user_req: dict):
         """
 
         """
-
-        username = user_data.get("username")
-        user_set = await fetch_record(username)
-        user_pass = user_set.get("password")
-        new_password = user_set.get("new_password")
-        confirm_password = user_set.get("confirm_password")
 
         hasher = PasswordHasher()
+        new_password = user_req.get("new_password")
+        confirm_password = user_req.get("confirm_password")
+        user_req = await value_mapper(user_req, Keys.PASSWORD_CHANGE_MAPPING.value)
 
-        # Check if user exists
-        if username and user_set:
-            current_pass_from_db = await fetch_record({
-                "username": username
-            })
-            # Verify current password
-            if hasher.verify_password(user_pass, current_pass_from_db):
-                if confirm_password == new_password:
-                    # hash the pass
-                    hashed_password = hasher.hash_password(new_password)
+        user_db = await fetch_record(filters={
+            "username": user_req.get("username")
+        })
+        if not user_db:
+            raise DBException(message="Unable to fetch user details from DB!!")
 
-                    # update the password in db
-                    await ORMWrapper.update_with_filters(
-                        current_pass_from_db,
-                        Users,
-                        {
-                            "updated_on": datetime.now(),
-                            "password": hashed_password
-                        },
-                        update_fields=cls.update_fields,
-                    )
-                else:
-                    raise UserProcessingError("Password not matched, "
-                                              "new password and confirm "
-                                              "password")
+        user_db_dict = user_db[0].__dict__
+        user_pass = user_db_dict.get("password")
+
+        current_password = user_req.get("password")
+
+        # Verify current password,
+        # user_pass: current password from database
+        # user_data->current_pass: password captured from user request
+
+        if hasher.verify_password(current_password, user_pass):
+            if confirm_password == new_password:
+                # hash the pass
+                hashed_password = hasher.hash_password(new_password)
+                # update the password in db
+                await ORMWrapper.update_with_filters(
+                    user_db[0],
+                    Users,
+                    {
+                        "updated_on": datetime.now(),
+                        "password": hashed_password
+                    },
+                    update_fields=cls.update_fields,
+                )
+                return {
+                    "data": {
+                        "is_success": True
+                    },
+                    "status_code": 200
+                }
             else:
-                raise UserProcessingError("Password not matched, current "
-                                          "password and new password !!")
+                raise UserProcessingError("Password not matched, "
+                                          "new password and confirm "
+                                          "password should be same!!")
         else:
-            raise UserProcessingError("User not found")
+            raise UserProcessingError("Password not matched, current "
+                                      "password and your account password !!")
 
     @classmethod
-    async def update_user(cls, username: str, update_data: dict):
+    async def update_user(cls, user_details: dict, update_data: dict):
 
         """
             This function update user in users db
 
             Args:
+                user_details: username of the updating user.
                 update_data: Details of user that needs to be updated
-                username: username of the updating user.
 
             Returns:
                 True on successful update, False otherwise
@@ -289,18 +296,33 @@ class UserManager:
         #  check from context if it's the correct user
 
         try:
-            user_detail = await ORMWrapper.get_by_filters(
-                Users, {"username": username}
-            )
-            user_detail = user_detail[0]
-
-            await ORMWrapper.update_with_filters(
-                user_detail,
-                Users,
-                update_data,
-                update_fields=cls.update_fields,
-            )
-            return True
+            user_details = await fetch_record(user_details)
+            update_data.update({
+                "updated_on": datetime.now()
+            })
+            if user_details:
+                await ORMWrapper.update_with_filters(
+                    user_details[0],
+                    Users,
+                    update_data,
+                    update_fields=cls.update_fields,
+                )
+                return {
+                    "data": {
+                        "is_success": True
+                    },
+                    "status_code": 200
+                }
+            else:
+                logger.error(f"User with details '{user_details}' not found!")
+                return {
+                    "data": {
+                        "is_success": True,
+                        "description": f"User with details '{user_details}' "
+                                       f"not found!"
+                    },
+                    "status_code": 400
+                }
 
         except (ValueError, OperationalError, ValidationError) as ex:
             logger.exception(
@@ -326,7 +348,7 @@ class UserManager:
 # delivery status, etc.
 
 # Wishlist: APIs to manage a user's wishlist, allowing them to add products,
-# remove products, or view their saved wishlist.
+# remove products, or view their saved wishlist. ** DB change may required.
 
 # Address Book: APIs to manage a user's address book, allowing them to add,
 # update, or delete their shipping addresses for easy checkout.

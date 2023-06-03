@@ -14,7 +14,6 @@ class Users(Model):
         "number",
         "number_code",
         "gender",
-        "metadata",
         "status",
         "username",
         "premium_user",

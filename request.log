@@ -1234,3 +1234,1543 @@ Request headers: <Header('content-type': 'application/json', 'user-agent': 'Post
 Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hs209s1d01ydq5293@ay48r2e32.c3o', 'date_of_birth': '1990-05-15', 'phone_number': '7102835829', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
 Request time: 2023-05-31 00:47:59.165844
 
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'fda1331f-dab2-438c-a3eb-4a0827bddf8f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '653')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hs209s1d01dydq5293@ay48r2e32.c3o', 'date_of_birth': '1990-05-15', 'phone_number': '7102835129', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-06-02 01:08:12.376965
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '07491e37-3e70-4508-8f66-47681aa316c9', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: None
+Request time: 2023-06-02 01:12:14.242740
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '3c7e1506-c728-46d9-addd-857b35702178', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:12:22.756508
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'dc1b0aa5-5200-4285-80e8-c9cf584d59a7', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:13:45.419334
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '82050a76-d86c-4783-9e4d-28ba90f272c7', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:14:25.340883
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '393292cf-daa4-43ea-8599-c699917b1499', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:15:19.560681
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '24b5caeb-dd10-4b72-8641-ca2867be33e9', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:16:30.672019
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '3088869e-afe9-430e-8b50-e2cd674c90fe', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:18:03.916953
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '65fed0ff-eeea-495c-b88a-c1ab3d58c0ed', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:20:54.454585
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '193e72c7-32a7-41a8-96ad-82963b6dce68', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:21:48.022814
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'dba6ceee-5d67-4b4c-a95a-55595aa878d9', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:22:09.600412
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'e958ebe9-ba54-4ccd-a4d5-23d1e29bd002', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:23:00.811320
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '73d616e0-0ee8-47cf-a6bb-b850c0565f78', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:23:39.824905
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b9ad3eb9-9f50-4f75-af2d-69956073d2d9', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:23:52.373232
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'a160f24b-1298-4055-93ae-cb519e0f3a05', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:24:08.509944
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '20e3840d-b5d3-4a1e-ad7e-38f96a059565', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:27:23.897815
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '2f951383-ebe9-4d04-b53a-642232544169', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:30:59.281690
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '7038d6ee-adc3-4edc-be1e-67281ff08d4c', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:32:51.148430
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '1742143e-3043-452b-bcba-1e0e7d5fd92d', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:34:35.889040
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'dde4e082-5dad-4bcd-896c-ba040fd97654', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:34:56.254499
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '8ce19443-a47c-4ebc-b957-3b97890be19e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:35:15.918483
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '865164a7-d329-4f42-85ca-7c00fdb79715', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:35:21.958860
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '3c67e8bc-440e-469d-85b2-9ea3c3d955bc', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:35:47.252787
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '071f1135-29d9-4417-992f-7f65ffae63bc', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:38:24.409999
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '36eb15c9-9d43-474f-a313-44c8b4bfd086', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:40:16.236803
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '8b51ff42-dac8-49d5-a107-e3f959fdc750', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:43:57.322975
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'ffc4745a-5b5d-467a-815f-5fa92725da22', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:44:14.045337
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '1d725f99-5c9a-450d-85fd-68f5cf06f4ec', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:44:25.500900
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '7a07e399-bdf2-4f98-82be-85dc157b33a7', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:48:02.557785
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'db5ce1ea-b6a1-4631-a267-92aacc69de32', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:49:53.166079
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '1e8f1d72-b430-483a-b20c-a6c44d4bfb26', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:50:10.766774
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b866c24d-943a-4e2f-ae17-d00d620cd72e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:50:29.271679
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '7d4a1e83-2653-4f3d-bd50-6fa789267078', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:56:21.832631
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '7e656b38-d36d-409b-a023-6ca56918ec1b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 01:56:42.646949
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'a1f2ffaf-0aad-44ff-bf05-09a5d7876be4', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 02:00:16.471912
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '948b57a7-9e5f-444e-a499-ced202104e14', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 02:00:28.175027
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '0f81bc2f-d385-4838-b0f8-be80d2131214', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 02:01:14.750340
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '486e9784-c834-49e8-84ff-cc71dfacdaec', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 02:01:43.584455
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'ccdea3c6-be68-4d41-978b-03bf6af8253b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 02:02:53.062980
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '6b6a065e-a61a-4787-a511-9abd5fb65600', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 02:03:29.916911
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'a0f5a52f-38e3-46c7-97e1-f3e5290ba018', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 02:04:32.023202
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b83e78b2-3a85-41f2-a805-2e72a3a90e10', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 02:06:41.829080
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'c156cdc8-ecfd-471c-8cae-8cdcfbae9f77', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 02:08:46.003701
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'fab2893f-e33a-4708-a7a5-ff79c7c266ab', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:13:57.813943
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'f2e7e548-c03a-4de0-bad6-ac26f3dd1432', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:14:45.270498
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '395fa0a0-bcdf-4380-b5f7-026a1bd6a013', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:15:27.443281
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '59338971-f830-429a-80e8-1ada3510a91e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:15:39.428615
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'a964a791-4026-48f2-a771-3a3a1bfa7716', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:17:52.257591
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '124eb32f-7d2f-4ecd-8044-3cdb1fa4fadc', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:18:30.691336
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'facae4ce-5947-4b09-9959-4283661c3f7f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:19:02.164277
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'd45f9465-5735-44f6-a2ab-62602f696837', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:26:27.554917
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b3781ddd-c8f9-4bec-8583-3b32fe12e76f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:31:17.775577
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '5d37e642-9b2c-4d51-bba8-4c90d620a0a8', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:32:56.841428
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '9a17856f-0e86-436a-b16a-017ee337d459', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:33:31.904857
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b85eb827-46c6-4e11-9610-c79f43888842', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:39:32.466833
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '658c2a1b-303c-4e34-99e9-6758ac662985', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:41:05.103694
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b691a596-7871-446a-a1aa-b26b9199374f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:41:22.739092
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'cd2894c8-b568-4f2f-ad21-392a08eec919', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:44:20.479273
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'c68788c2-55b8-4a93-af02-c37c35622933', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 22:45:34.746754
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '044aa983-a740-419d-8e8c-e8de88d7a9f6', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:04:16.498920
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '047c228b-2429-46cf-9be3-6c605012acf5', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:05:41.324215
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '1787e753-ed6f-4d91-a589-540d8ddc2b6a', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:08:01.723493
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '0cdb5ee2-64cc-4cfd-9b8f-79653ff5b0bf', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:09:16.958621
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '637a19ae-dfde-439e-b14c-00da681122d0', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:12:02.501355
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '0de602b0-ffe3-4a06-9c52-1f74f4d61388', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:17:57.322873
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '3c412a34-f612-4f74-9784-bbf9f894e720', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:26:18.636109
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '073c4ce1-a11c-4d60-8ce6-ce4c6b8f23a8', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:35:36.807226
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '0a33a943-e718-4f53-91e5-51f6511ff1e0', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:36:24.474043
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '04349407-ccc9-4a9b-9ccc-c9130603862a', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:37:41.383245
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'bb60484a-fcab-4435-b07b-4fdcf02b1c33', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '654')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hs209s1d01d8ydq5293@ay48r2e32.c3o', 'date_of_birth': '1990-05-15', 'phone_number': '7102835189', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 0, 'is_number_verified': 0, 'is_loyal_customer': 0, 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-06-02 23:48:31.352589
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'f89a7271-007f-478a-9d83-5c5ec6c150ab', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '669')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hs209s1d01d8ydq5293@ay48r2e32.c3o', 'date_of_birth': '1990-05-15', 'phone_number': '7102835189', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 'True', 'is_number_verified': 'True', 'is_loyal_customer': 'True', 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-06-02 23:49:04.682620
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'c43ad79f-74e2-4fa3-b992-55bef92d41f2', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '669')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hs209s1d01d8ydq5293@ay48r2e32.c3o', 'date_of_birth': '1990-05-15', 'phone_number': '7102835189', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 'True', 'is_number_verified': 'True', 'is_loyal_customer': 'True', 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-06-02 23:50:05.628304
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '2d971466-2685-4bec-bc51-93d9ccb24221', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '669')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hs209s1d01d8ydq5293@ay48r2e32.c3o', 'date_of_birth': '1990-05-15', 'phone_number': '7102835189', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 'True', 'is_number_verified': 'True', 'is_loyal_customer': 'True', 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-06-02 23:50:23.060742
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'eb35aeaf-a00f-4f7d-adbf-389c03aa8b89', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '669')>
+Request data: {'first_name': 'John', 'last_name': 'Doe', 'email_id': 'hs209s1d01d8ydq5293@ay48r2e32.c3o', 'date_of_birth': '1990-05-15', 'phone_number': '7102835189', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'johndoe123', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'hashed_password', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 'True', 'is_number_verified': 'True', 'is_loyal_customer': 'True', 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-06-02 23:51:12.620305
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'ecad5897-6035-4883-b309-ee983a456a57', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:51:27.705423
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '3acbba0c-6bab-4ad4-a5ef-063b66ce01e1', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:52:59.332863
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b5c1199e-b38e-409d-a438-91e6732f2bcd', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:53:24.060110
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '1b06f4fc-c633-401a-bc7c-aec26cfa121a', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:55:03.615875
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '4e966694-5c0b-41ba-9d6f-cc5a44c3356e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:56:27.754074
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '610e2c7d-2da7-4b55-913d-bbaa05255ecf', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-02 23:59:57.172665
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '84c5d380-3bce-4315-ae3d-32002621049b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-03 00:01:12.453188
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '2c06abae-c85f-4680-bbfd-ae1d959a332e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-03 00:01:35.900836
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '9c4f8046-30d6-4ae2-872f-851c370ae97f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-03 00:01:58.614604
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b2a909cd-d6e6-4fa1-bbfb-bf8f0d8459ee', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-03 00:05:13.314930
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/%3Cuser_id%3E
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '48649f24-e990-4637-b247-9ceae711b8ab', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:08:39.043796
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/%3Cuser_id%3E
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'ba8072b0-7d1f-413d-ae78-e8fcea73eacd', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:09:04.831960
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '17bdb856-9d3a-435e-ad9d-b0c5436ac3cc', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:09:49.593676
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '57af8b0d-4671-4aa1-a153-cfee25401cae', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:09:54.102833
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '46ca32d0-58a1-47b2-81db-f70904f9c300', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:10:57.269158
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '10ba41c0-9801-42c7-a303-aa9d720aa3c1', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:11:06.607020
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '2974689e-4c76-4450-825c-f685bae0a97d', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:11:10.064231
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '33b8ff80-8aab-4d32-bb2e-4753069de81f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:11:31.528323
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'ab68f557-a286-43d2-b5bc-01c5d6bf96b7', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:11:36.623998
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'c656f1ec-8add-42aa-8320-e2d2fd13a208', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:12:00.982852
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'aa5ea37e-8bab-4b2b-8715-93a7036fb7ce', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:31:57.908999
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b44b6d1e-8362-493a-bd0c-013d8df979e0', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:34:23.873914
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '4d2151e9-0983-42d3-bbe4-346d145da6a8', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:35:56.770096
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '4dabd747-2426-4957-9687-e6594fb72e54', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:36:14.073157
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'c8ee8ad2-b8a5-43fe-9d47-50a4af8b9164', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 02:38:10.262236
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '92e11f76-b32b-4475-8953-ce4274f67c3d', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 07:32:40.537963
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'cdd59121-373c-4ffd-8281-8145460f0441', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 07:36:45.242443
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'bb38dd4a-1c4a-406f-8d97-2e2ab250c90b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 07:45:42.796333
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '5f12d136-e911-4af7-a85c-3c48e5eefde1', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 13:03:29.111688
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '783a113d-9ed9-4cee-8177-8d402a956902', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 13:04:21.337933
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '4fd8c7cd-4c9b-4bdd-9f2a-67060409b814', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 13:05:03.337135
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '248a8463-c56c-4468-a811-641c5f7f68ce', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 13:07:17.769633
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '9036ebbb-f653-49b8-925d-887ec515819b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 13:07:45.635326
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'c4d56483-5e9e-486e-8299-a02564e053c5', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 22:38:05.867118
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '1178ffba-3d03-4560-a87a-14646dfb7a30', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 22:51:47.250165
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b7d971a1-4552-47a0-9e69-71a54c793b11', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 22:52:51.940573
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '942f574d-a081-4c62-9c4a-9e7dc571347c', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 22:53:23.757088
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '8014b9a6-ee1e-4cbc-b44c-227d173f54c7', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 22:55:08.236929
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '41aeb707-4ee1-4409-a2c1-477859ba32b4', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 22:56:36.315551
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b41fe1b1-6561-4b78-9f39-46e6c6cbff41', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 22:58:12.761505
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '6079214e-e878-4150-8d68-169c4345550f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 22:58:45.999433
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '79044088-083b-4e7e-8800-0b8f357951f1', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 22:59:08.827094
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '7213aeb9-92c6-492d-a493-2f8d92a602d5', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 22:59:36.092496
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"abc abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'db519633-e849-41f4-b77a-d514a16eab50', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 22:59:52.475528
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '30ad66de-aacd-4e26-ab69-3340c558efc0', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 23:01:40.804200
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'd61bd96d-4ae9-440d-977d-fe4a08d3aa28', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 23:01:51.804628
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '506cae34-fd63-4387-b2d1-062ac0eb0cdc', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 23:02:16.085368
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '6b0496f3-d56f-4d72-b0d5-e4c95ca98440', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 23:04:09.932380
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '5d82a8be-c9b5-4762-956a-4400cadeaf37', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 23:04:16.891512
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '76fac427-1b9c-440b-a152-050fe5a41310', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 23:05:13.093474
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'd0f573f2-5768-4de6-a561-4b2ffaeb2384', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 23:05:54.482421
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '71bfea41-0af3-4a06-b922-68baad53c8bf', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 23:06:05.841226
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '84affef1-9313-46a6-8fe7-06bdd5a29bd4', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 23:06:19.169186
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '827516db-c507-4a51-9aa3-a92888f690f8', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 23:06:23.923221
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '790ccc29-a3de-437e-8c30-135b952e5153', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 23:06:29.660376
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'cb5cce95-b7bb-449c-8845-9d323bbb63a8', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 23:09:07.428946
+
+Request method: DELETE
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/delete/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'a8592381-c1bd-4f77-a18f-671be5bc94cb', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-03 23:09:28.000064
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '4dd27311-3010-42ce-b203-0d370ab50ee0', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-04 00:02:43.866617
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '3f4edd69-32a6-4a66-b2a7-48dc199e5f8c', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-06-04 00:02:51.126897
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '49f08e39-a7d0-46c5-963c-a76c87823f4d', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-06-04 00:02:59.957050
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'a5bd8d89-05c1-499d-b373-a8fb27c07515', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-06-04 02:50:25.734129
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass//03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '536704b2-8fde-484a-9288-8030a4a0fb2b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-06-04 02:51:41.320111
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass//03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '00113284-e6c9-4c88-a93d-5b1d8ffe8894', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-06-04 02:51:46.734565
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'adce15bf-72a2-43f3-9171-736a39aa9c8e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-06-04 02:52:04.923487
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '5aa35dcd-444c-4482-b720-d8c21ec0d4ed', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-06-04 02:54:02.362583
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '5d86edae-bd6e-4bcd-ab36-ac5dea11a9cc', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-06-04 02:54:34.920876
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '4cbac8ba-97d8-4a51-bedd-49d1b909017e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-06-04 02:55:07.249809
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'a2747d85-049c-46a0-b8b2-2a448313d3fd', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0')>
+Request data: None
+Request time: 2023-06-04 02:58:10.055654
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '6620c2bf-8892-4cf7-8fab-02b9943a9b2b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 03:13:36.602725
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'e0f73e2e-1f43-4e83-8471-ce4bff186dc4', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 03:14:32.478759
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'd9fb6f49-2234-47df-874d-19506d859d14', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 03:14:57.328946
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '17a75712-38a0-4ade-ae67-24339cbc8337', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 03:15:19.898287
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'f3b9a3aa-449e-4dbc-920c-14a3650e0fc1', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 03:16:25.639601
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '6665bcfc-c6f1-477f-b45c-07c9ed9d4ae0', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 03:17:12.246298
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '0cc0ae2b-d4b8-4d42-895e-d4a1ffabc6d4', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 03:17:28.822365
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '5ee45abc-4887-4b8f-86f0-50ae7f7d573d', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 03:36:23.737497
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '10fc8c6b-6338-4b99-bac8-e0ad63ce4905', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 19:14:44.011444
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '361b2429-23bd-4760-a64f-9cc664aa7e9d', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 19:15:23.165987
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'e49ca7d2-2ff1-4a7b-9b2e-e0235b1463fe', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 19:16:38.864349
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'de0de979-65d3-4d94-8fbe-ef6306d539e8', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 19:18:39.795840
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b7c3398b-dfb5-4d6f-890e-6e5563ed175c', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 19:19:07.086862
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'e23e316e-0062-4672-bb94-3b9c1eb85f25', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 19:21:10.770625
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'e2fc4bdc-5b52-493c-b9af-4bd5af92606a', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 19:21:44.710113
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '6902c463-a682-4e99-afcd-a6d13f759271', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 19:44:46.019288
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '0639af22-bd4b-40f1-88c2-4e4410cfa07e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 19:44:55.257787
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'a2dd78fe-7e45-473a-b366-d210fd32dfef', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 19:45:37.025345
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'd039f126-5c98-4801-b14d-ca7ffbc99c88', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 19:46:21.301870
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '9479be46-8285-4f3f-bcd3-20244f1de716', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 19:48:35.973032
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '855d8112-47b5-4df8-b3ed-bc54059d5d8b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 19:57:25.514658
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '04943b22-0066-420a-8636-f9ef39fbb41f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 20:46:36.300005
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '07c8a6b9-0484-4576-ac95-ea1a9be55270', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 20:47:24.245512
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '23ec409e-a2df-40de-a1e1-4d06c0300279', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 21:00:47.921349
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'cc7cdce5-d213-4a83-871e-99149c1cf290', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 21:01:56.040664
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '90f0cb91-f6c0-457f-8d7d-bdc9a6062960', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 21:02:45.312107
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '248bfeb8-b6b4-4eb4-a98a-cf78c1927f60', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '155')>
+Request data: {'phone': '6397871885', 'username': 'ayushkapri', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 21:03:14.006687
+
+Request method: POST
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/create/user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'e13ee8e1-20a3-42a8-861b-8fb55b134ac2', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '662')>
+Request data: {'first_name': 'AyushRichard', 'last_name': 'Obrian', 'email_id': 'ayush.ceo@draipe.com', 'date_of_birth': '2001-01-18', 'phone_number': '6397871885', 'phone_number_code': 'ABC', 'gender': 'M', 'status': 'ACTIVE', 'username': 'ayushdrape', 'premium_user': 'False', 'premium_buy_on': 'None', 'reference_id': 'None', 'password': 'ayushkapri', 'deactivation_reason': 'NOT_DEACTIVATED', 'profile_picture': 'https://example.com/profile.jpg', 'address_id': '', 'is_email_verified': 'True', 'is_number_verified': 'True', 'is_loyal_customer': 'True', 'cart_id': 0, 'referral_id': '1'}
+Request time: 2023-06-04 21:06:08.713564
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'fe008b12-6b6a-486d-894e-5ee17dcca1ff', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '156')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 21:07:51.696916
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '590e624f-804a-4bb6-a403-a60f9689a0b4', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '156')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 21:09:07.205094
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '0baf9cc6-fd89-4c81-939f-7189d47db0cb', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '156')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 21:11:19.760329
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'c9e8de69-cd03-4f01-9288-29eece11d02e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '156')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkapri', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 21:11:48.297077
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '592c9d4d-6a44-425f-97db-01fa5b3704f4', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 21:12:59.982863
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '7a7ea145-c9c2-49c7-992d-e7b9628d26d4', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 21:13:49.510239
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'e8e46e19-9ceb-4864-b10b-ed534df4594d', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 21:14:26.087358
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'f5a7bb56-9730-426e-97fa-f9fec52c91f1', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 21:14:56.725492
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '8498daf0-1b08-44af-a22c-5259a956efe2', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 21:15:55.754980
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '3c4eba9f-ad4f-4c0b-847c-0edd6a32873d', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:11:24.011722
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'f5d4425d-10dc-477d-ba38-5cee7b718776', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:11:42.590221
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '3b365d6e-c944-47fb-955d-77dbd84424f8', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:11:51.080050
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'a6ebd647-bfaf-4368-a860-acc43187f462', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:16:26.613190
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'a12e5411-24c6-4087-9734-abdd242f0627', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:17:42.838893
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b7a633ff-0d4e-431f-970d-8b78fa0ea932', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:18:07.959478
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'f5024766-6990-4e3f-8d6f-915104324e60', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:20:31.002371
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '7b2aee95-6ab8-4d42-8316-ceafc3ccbe53', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:21:23.043137
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'eb1d9f41-d0e7-49c9-a343-13bc9a3621d5', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:22:14.792987
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"macOS"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8')>
+Request data: None
+Request time: 2023-06-04 22:26:59.268198
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/favicon.ico
+Request headers: <Header('host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"macOS"', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'no-cors', 'sec-fetch-dest': 'image', 'referer': 'http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8')>
+Request data: None
+Request time: 2023-06-04 22:26:59.962041
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '7114b030-9f9f-4e51-a3ff-e73950fd6ab6', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:27:10.264210
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'd1c30c76-a232-4687-81f1-e0b2a98f0805', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:28:07.449545
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '44449a15-bc3a-40f5-b8ba-3c8929a5a570', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:31:24.832788
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '904db9f4-8942-4dcc-99e9-be4af22c85d7', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:32:43.228716
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'accept': '"application/json"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'postman-token': '0b3a80a0-6485-4281-b2c8-204f27f10982', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:36:36.608485
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'accept': '"application/json"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'postman-token': 'fac62ff3-c62c-436f-be67-9752994e3fef', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:36:43.127152
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'accept': '"application/json"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'postman-token': '471b3017-988a-4a9e-9e3b-38206cf80c0c', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:37:51.632163
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'accept': '"application/json"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'postman-token': '5a727f93-0766-4f9b-9939-f7d7cdb90ef8', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:39:06.196714
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'accept': '"application/json"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'postman-token': '06c5d855-f225-4e4b-b02d-222510a7d58e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:40:08.687599
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'accept': '"application/json"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'postman-token': '0e9336e7-d26d-4631-aa6c-f185c825c23c', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:40:54.682037
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'accept': '"application/json"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'postman-token': 'b9569c1d-34e6-4426-918b-bd5c96fe4269', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:41:15.554592
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'accept': '"application/json"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'postman-token': '32be9702-fbe7-421e-a60b-eea297607a13', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:41:47.290246
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'accept': '"application/json"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'postman-token': 'd7b29f27-cbee-4021-ae7a-0cc2d9243682', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:42:19.396635
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '7c18dcc8-0c31-4c48-a9f8-92732421f846', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:43:45.786936
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '235a4aa7-71df-4b62-9155-740143c86e5e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:43:52.042894
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'text/plain', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'f15faecf-90e8-44bb-9d74-7d63e95d1e59', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:46:45.198458
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'fdc3f6eb-8ef6-4f00-8562-38344456b296', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:47:22.276808
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '9838a664-54cc-42cb-a884-c29c5b4086cd', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:47:35.371530
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '9b4fa810-bea9-42d4-9261-ff9cee7cdadc', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:48:06.192011
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '1161e411-9cf5-44b5-b235-8ef4d72f5e32', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:48:49.178621
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '0af3c5d4-c8e9-42a9-bf8d-6f67859f27af', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:50:25.566547
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/change_pass/03e14af2-6050-4fa8-b487-3d5d1bc3c543
+Request headers: <Header('authorization': '"bearer abc"', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '95a5a58b-5da2-4603-9434-023f2f3e2554', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '157')>
+Request data: {'phone': '6397871885', 'username': 'ayushkaprii', 'current_password': 'ayushkaprii', 'new_password': '123', 'confirm_password': '123'}
+Request time: 2023-06-04 22:51:30.108672
+
+Request method: PATCH
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/user/update_user
+Request headers: <Header('content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'b23260b2-17e3-4b7b-ac1c-7b83dd23607e', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '59')>
+Request data: {'username': 'ayushkapri', 'first_name': 'ayush'}
+Request time: 2023-06-04 22:53:07.176215
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/protected
+Request headers: <Header('content-type': 'application/json', 'authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImNsYXNzIjoiYWNjZXNzIn0.eyJzdWIiOiJheXVzaCIsIm5iZiI6MTY4MDk3ODEyMSwianRpIjoiYWI3YTMyMjljMGQyNDA4YmI3Mjg1ZmI2ZDk2ZWVjMzYiLCJpYXQiOjE2ODA5NzgxMjEsImV4cCI6MTY4MDk3OTAyMX0.wg2_SWT6GM3zxEcp2k9ZzO5kfLsu_BTqhhjSG_0c7PE', 'user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '4a572bae-e135-48f9-8035-32a55301b2ab', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '27')>
+Request data: None
+Request time: 2023-06-04 22:53:37.452357
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/6db2d239-9a6c-4abb-a2fd-74c04b26b12b
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'ede82a8b-781b-4f4f-9e07-cc76f59d6273', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-04 22:58:00.768724
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/6db2d239-9a6c-4abb-a2fd-74c04b26b12b
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '0f14b7b6-abcd-40fe-a746-070b0ebb4ac3', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-04 22:58:42.570872
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/6db2d239-9a6c-4abb-a2fd-74c04b26b12b
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'd39b3e79-5ec0-4672-b7e9-0b50340c904d', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-04 23:00:21.110956
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/6db2d239-9a6c-4abb-a2fd-74c04b26b12b
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '15e74874-70cd-4289-9b58-04482e60dc61', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-04 23:00:32.496147
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/6db2d239-9a6c-4abb-a2fd-74c04b26b12b
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': '6ef84b17-dc00-402d-a740-359e8f33f92a', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-04 23:00:42.063603
+
+Request method: GET
+Request Host: 127.0.0.1:8000
+Request URL: http://127.0.0.1:8000/profile/6db2d239-9a6c-4abb-a2fd-74c04b26b12b
+Request headers: <Header('user-agent': 'PostmanRuntime/7.32.2', 'accept': '*/*', 'postman-token': 'bb49716e-3ad9-42ac-9b3d-156ef2bbf034', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive')>
+Request data: None
+Request time: 2023-06-04 23:02:54.822013
+

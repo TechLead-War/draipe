@@ -13,7 +13,8 @@ class ErrorMessages(Enum):
     USER_ADD_ADDRESS_ERROR = (
         "Unable to add address due to incomplete address details"
     )
-    UPDATE_UPDATE_ERROR = "Unable to update user"
+    UPDATE_USER_ERROR = "Unable to update user"
+    PAYLOAD_INVALID = "Invalid payload, please check the payload again!"
     USER_DELETE_ERROR = "Unable to delete user"
     USER_ALREADY_INACTIVE = "Corporate account already expired"
     USER_ALREADY_ACTIVE = "User account already active"

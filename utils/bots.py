@@ -2,9 +2,12 @@ from asyncio.log import logger
 import re
 from os import abort
 from datetime import datetime
-from urllib.request import Request
+from sanic.request import Request
 import aiofiles
 import requests
+from functools import wraps
+from context import user_tokens
+from contants.exceptions import UserNotAuthorised, InvalidTokenError
 
 
 async def log_request(request: Request):
@@ -20,7 +23,7 @@ async def log_request(request: Request):
         await f.write(f"Request time: {datetime.now()}\n\n")
 
 
-async def block_bots(request):
+async def block_bots(request: Request):
 
     # Defined a regular expression to match common bot user agents
     bot_regex = re.compile(r"(googlebot|bingbot|yandexbot|slurp)",
@@ -31,3 +34,34 @@ async def block_bots(request):
     if user_agent and bot_regex.search(user_agent):
         logger.warning(f"Blocked bot with user agent: {user_agent}")
         abort()
+
+
+# Decorator to authenticate the request
+def authenticate(func):
+    @wraps(func)
+    async def wrapper(request: Request, *args, **kwargs):
+        try:
+            # Get the authorization header
+            auth_header = request.headers.get("Authorization")
+
+            if auth_header:
+                # Extract the token from the header
+                try:
+                    token = ""
+                    auth_header_parts = auth_header.split(" ")
+                    if len(auth_header_parts) == 2 and auth_header_parts[0].lower() == "\"bearer":
+                        token = auth_header_parts[1].strip('"')
+                except ValueError:
+                    raise UserNotAuthorised("Invalid authorization header")
+
+                user_id = kwargs.get("user_id")
+                user_token = user_tokens.get(user_id)
+                if token == user_token:
+                    # Token is valid, proceed with the request
+                    return await func(request, *args, **kwargs)
+
+            # No or invalid authorization header
+            raise UserNotAuthorised("Invalid or missing token !!!")
+        except ValueError:
+            raise InvalidTokenError("Invalid format for token !!!")
+    return wrapper

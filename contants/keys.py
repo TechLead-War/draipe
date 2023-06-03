@@ -19,7 +19,6 @@ class Keys(Enum):
         "created_on",
         "updated_on",
         "number_code",
-        "metadata",
         "status",
         "username",
         "premium_user",
@@ -77,6 +76,22 @@ class Keys(Enum):
             "db_value": "address_id",
             "is_mandatory": False,
         },  # this will not be mapped to address id
+    }
+
+    PASSWORD_CHANGE_MAPPING = {
+        "current_password": {
+            "db_value": "password",
+            "is_mandatory": True,
+        },
+        "username": {
+                "db_value": "username",
+                "is_mandatory": True,
+        },
+        "phone": {
+            "db_value": "phone",
+            "is_mandatory": True,
+        },
+
     }
 
 
