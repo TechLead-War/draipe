@@ -1,6 +1,7 @@
-from contants.enums import ORMConstant
 from tortoise import Tortoise
 from tortoise.contrib.postgres.functions import Random
+
+from contants.enums import ORMConstant
 
 
 class ORMWrapper:

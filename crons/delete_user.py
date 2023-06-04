@@ -4,8 +4,9 @@
 """
 
 import asyncio
-import aiofiles
 from datetime import datetime
+
+import aiofiles
 
 
 async def delete_users():

@@ -1,13 +1,13 @@
 from asyncio.log import logger
-
-from argon2 import PasswordHasher as Argon2PasswordHasher, exceptions as argon2_exceptions
 from datetime import datetime
 
+from argon2 import PasswordHasher as Argon2PasswordHasher
+from argon2 import exceptions as argon2_exceptions
 from sanic import Blueprint
 
-from contants import Keys, UserStatus, DeactivationReasons
-from contants.exceptions import UserProcessingError, DBException, \
-    OperationalError, ValidationError
+from contants import DeactivationReasons, Keys, UserStatus
+from contants.exceptions import (DBException, OperationalError,
+                                 UserProcessingError, ValidationError)
 from contants.messages import ErrorMessages
 from managers.generals import fetch_record, value_mapper
 from managers.orm_wrappers import ORMWrapper

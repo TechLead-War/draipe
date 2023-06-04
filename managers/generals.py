@@ -1,6 +1,6 @@
 from contants.exceptions import DataInvalidOrNotFound
-from models import Users
 from managers.orm_wrappers import ORMWrapper
+from models import Users
 
 
 async def fetch_record(filters: dict, change_to_dict=False) -> dict:

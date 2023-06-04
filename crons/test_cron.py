@@ -1,6 +1,7 @@
 import asyncio
-import aiofiles
 from datetime import datetime
+
+import aiofiles
 
 
 async def test_cron():

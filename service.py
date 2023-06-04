@@ -1,13 +1,14 @@
-from tortoise.contrib.sanic import register_tortoise
+from urllib.request import Request
+
 from sanic import Sanic
 from sanic_cors import CORS
 from sanic_limiter import Limiter, get_remote_address
+from tortoise.contrib.sanic import register_tortoise
 
 from context import user_tokens
 from routes import blueprint_group
 from utils.bots import block_bots, log_request
 from utils.env import CONFIG, cors_origins
-from urllib.request import Request
 
 app = Sanic(name='Draipe')
 app.config.update_config(CONFIG.config)

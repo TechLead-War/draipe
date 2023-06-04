@@ -14,7 +14,6 @@ import logging
 import time
 
 import jmespath
-
 from botocore.docs.docstring import WaiterDocstring
 from botocore.utils import get_service_module_name
 

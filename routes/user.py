@@ -2,10 +2,9 @@ from asyncio.log import logger
 from urllib.request import Request
 
 from sanic import Blueprint
-from sanic_jwt import protected
 
 from contants import HTTPStatusCodes
-from contants.exceptions import ExpectedDataNotFound, UserNotAuthorised
+from contants.exceptions import ExpectedDataNotFound
 from contants.messages import ErrorMessages
 from managers.users import UserManager
 from utils.bots import authenticate

@@ -1,5 +1,6 @@
-from contants.enums import UserStatus, DeactivationReasons
 from tortoise import Model, fields
+
+from contants.enums import DeactivationReasons, UserStatus
 
 
 class Users(Model):

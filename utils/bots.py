@@ -1,13 +1,15 @@
-from asyncio.log import logger
 import re
-from os import abort
+from asyncio.log import logger
 from datetime import datetime
-from sanic.request import Request
+from functools import wraps
+from os import abort
+
 import aiofiles
 import requests
-from functools import wraps
+from sanic.request import Request
+
+from contants.exceptions import InvalidTokenError, UserNotAuthorised
 from context import user_tokens
-from contants.exceptions import UserNotAuthorised, InvalidTokenError
 
 
 async def log_request(request: Request):
