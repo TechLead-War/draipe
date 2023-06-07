@@ -1,0 +1,34 @@
+repos:
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        args:
+          - --recursive
+          - /manager/
+          - /routes/
+          - /models/
+          - /utils/
+
+  - repo: https://github.com/psf/black
+    rev: 22.3.0
+    hooks:
+      - id: black
+        language_version: python3.9
+        files: /
+
+
+#
+#  - repo: https://github.com/pycqa/flake8
+#    rev: 5.0.4
+#    hooks:
+#    - id: flake8
+
+
+
+
+
+#flake8: A tool that combines several Python linting utilities, including PEP 8 style checking, static analysis, and code quality checks. It helps identify potential errors, style violations, and maintainability issues in your code.
+#pytest: A testing framework for Python that provides a simple and expressive way to write tests. It offers a wide range of features for writing unit tests, functional tests, and integration tests. It promotes test-driven development and helps ensure the quality and reliability of your code.
+#mypy: A static type checker for Python that helps catch common errors and improves code quality. It allows you to add type annotations to your code and performs static analysis to identify type-related issues before runtime.
+#pylint: Another popular Python static code analyzer and linter that checks for errors, enforces coding standards, and provides code quality reports. It offers a wide range of customizable checks and can be integrated into various development environments.

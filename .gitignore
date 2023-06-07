@@ -1,0 +1,39 @@
+# Ignore a specific file
+pyvenv.cfg
+
+myenv
+lib
+include
+bin
+__pycache__
+
+# Ignore all files with .log extension
+cron.log
+request.log
+
+
+# Ignore all files with .txt extension in a specific directory
+
+
+# Ignore a specific directory
+
+
+# Ignore all directories with a specific name
+
+
+# Ignore files starting with "temp"
+
+
+# Ignore files ending with ".bak"
+
+
+# Ignore files with a specific pattern
+
+
+# Ignore compiled binaries
+*.exe
+*.dll
+
+# Ignore sensitive files
+secret.key
+.idea
