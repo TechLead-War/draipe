@@ -1,8 +1,8 @@
 #!/Users/ayush/Jellyfish/bin/python
 
-import argparse
-import json
 import sys
+import json
+import argparse
 from pprint import pformat
 
 import jmespath
