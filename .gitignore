@@ -5,7 +5,7 @@ myenv
 lib
 include
 bin
-
+__pycache__
 
 # Ignore all files with .log extension
 cron.log
@@ -36,3 +36,4 @@ request.log
 
 # Ignore sensitive files
 secret.key
+.idea
